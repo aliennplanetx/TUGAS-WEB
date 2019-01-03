@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+  }
+  
+  .flex-navbar {
+    background-color: ##FAFAFA;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 2px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-navbar .items.items-right {
+    margin-left: auto;
+  }
+  
+
+  .flex-navbar .logo-name a{
+    color: #df0024;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .flex-navbar ul.items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #34495e;
+    font-size: .99em;
+    text-transform: uppercase;
+  }
+  
+  .flex-navbar > ul.items li.item {
+    margin: 0 15px;
+  }
+  
+  .flex-navbar > ul.items li.item a {
+    text-decoration: none;
+    color: #616161;
+  }
+  
+  .flex-navbar > ul.items li.item a:hover {
+    color: red;
+  }
+  
+  @media only screen and (max-width: 577px) {
+    .flex-navbar {
+      flex-direction: column;
+    }
+    
+    .flex-navbar ul.items {
+      flex-direction: column;
+    }
+    
+    .flex-navbar ul.items.items-right {
+      margin-left: initial;
+    }
+    
+    .flex-navbar > ul.items li.item {
+      margin: 15px 15px;
+    }
+  }
+
+/* CARD 1*/
+
+/* EMERGENCY PHONE */
+section {
+    font-family: 'Lato', sans-serif;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  button {
+    border: none; 
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 12px 18px;   
+    margin: 20px auto 0 auto;
+    display: flex;
+    background:white;  
+    color: #fff;             
+    text-transform: uppercase;
+  }
+
+  button .btn{
+    color: black;
+  }
+
+.emergencyphone button{
+    background-color: #df0024;
+}
+  
+/* CARD 2*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 90%;
+  cursor: pointer;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  background: ;
+}
+.btn a{
+  color: white;
+  font-family: 'lato', sans-serif;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background-color: #df0024;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 25%;
+  }
+}
+
+.card {
+  background-color:#2b2b2b;
+  color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_content a{
+    text-decoration: none;
+    color:black;
+    font-family: 'lato',sans-serif;
+}
+
+.card_title {
+  color:white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: 'lato', sans-serif;
+}
+
+article {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+article a{
+  text-decoration: none;
+  color: black;
+}
+article .text-content {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* STYLES SPECIFIC TO FOOTER  */
+
+#container{
+    position:relative;
+}
+
+#content{
+  padding:10px;
+}
+#footer{
+  clear: both;
+}
+
+.lookWrap{
+  position: relative; 
+  background-color: #2b2b2b;
+  float: left;
+  width: 100%;
+  padding: 50px;
+}
+
+#look{
+  margin: auto;
+  width: 1160px;
+}
+
+.section{
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 490px;
+  margin: 0 15px 15px 0;
+  font-family: 'lato', sans-serif;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: white;
+}
+
+.section h3{
+  font-weight: normal;
+  font-family: 'lato', sans-serif;
+  font:12pt;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+.section a{
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.legality{
+  text-align: center;
+  clear: both;
+  font-family: 'lato', sans-serif;
+  line-height: 2em;
+  background-color: #2b2b2b;
+  color: #a1a19a;
+  font-size: 13px;
+}
+
+
+/*CONTENT */
+.info-content{
+    font-family: 'Lato', sans-serif;
+    display: block; 
+    margin: auto;
+    padding-left: 83px;
+    padding-right: 83px;
+    text-align: justify;
+}
+
+.info-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.info-content h3{
+  font-size: 30px;
+  text-align: center;
+}
+
+/*LABEL */
+
+.label {
+  margin-bottom: 20px;
+}
+
+.label .label1 {
+  display: inline;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.label a {
+  padding: 4px 6px;
+  color: #fff;
+  background: #df0024;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'lato', sans-serif;
+}
